@@ -10,7 +10,7 @@ export default function Home() {
     <Layout>
       <section className={header}>
         <div>
-          <h2>Design</h2>
+          <h2>Design?</h2>
           <h3>Develop & Deploy</h3>
           <p>Ux designer & web developer based in Hawaii</p>
           <Link className={btn} to="/projects ">My portofolio</Link>

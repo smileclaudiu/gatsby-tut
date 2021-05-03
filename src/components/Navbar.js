@@ -16,7 +16,7 @@ export default function Navbar() {
     )
     return (
         <nav>
-            <h1>{data.site.siteMetadata.title}</h1>
+            <h1><Link to="/" >{data.site.siteMetadata.title}</Link></h1>
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
